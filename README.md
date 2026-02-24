@@ -62,3 +62,10 @@ See the [LICENSE](LICENSE) file for details.
 ---
 
 **YAVIQ** — Optimize LLM cost without sacrificing quality.
+=======
+# YAVIQ SDKs
+
+SDKs for YAVIQ (Node.js and Python) are under active development.
+
+They will be published **after production deployment**
+once API stability and versioning are finalized.
