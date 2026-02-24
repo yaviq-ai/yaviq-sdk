@@ -1,0 +1,35 @@
+{
+  "name": "@yaviq/sdk",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for YAVIQ — reduce LLM token usage and cost with cloud-based optimization.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "llm",
+    "ai",
+    "token-optimization",
+    "cost-optimization",
+    "prompt-optimization",
+    "openai",
+    "anthropic",
+    "gemini"
+  ],
+  "author": "YAVIQ",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
